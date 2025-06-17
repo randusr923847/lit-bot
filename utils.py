@@ -12,9 +12,6 @@ SET_SEG = {
 def whatSet(suite, value):
     return 2 * suite + (0 if 2 <= value <= 7 else 1)
 
-#def whatSet(suite, value):
-#    return suite + (value // 8)
-
 def ind2card(index):
     suite = index // 13
     value = (index % 13) + 1
